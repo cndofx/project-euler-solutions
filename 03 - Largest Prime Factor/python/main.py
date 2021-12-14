@@ -3,7 +3,7 @@ import math
 def largestPrimeFactor(num):
     factor = 3
     previous = 1
-    for i in range (1, int(math.sqrt(num))+1):
+    while factor < int(math.sqrt(num))+1:
         if num % factor == 0:
             previous = factor
             while num % factor == 0:
