@@ -1,5 +1,9 @@
 # Project Euler Solutions
-solving project euler problems in various languages
+solving [project euler](https://projecteuler.net) problems in various languages
+
+Each project folder has its own `readme.md` file with the execution time for every language measured on an r7 5800x. Each project should be written as close to the same as possible in each language to make it a fairer comparison, but this is really just for fun and mistakes are possible.
+
+## Other info
 
 - c++ projects:
   - compiled with `g++ main.cpp -o main.out` for debug
