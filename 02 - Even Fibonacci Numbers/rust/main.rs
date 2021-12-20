@@ -1,6 +1,10 @@
-#![allow(non_snake_case)]
+fn main()
+{
+    let result: i32 = fibo_even_sum(4000000);
+    println!("result: {}", result);
+}
 
-fn fiboEvenSum(limit: i32) -> i32
+fn fibo_even_sum(limit: i32) -> i32
 {
     let mut x: i32 = 1;
     let mut y: i32 = 2;
@@ -20,10 +24,4 @@ fn fiboEvenSum(limit: i32) -> i32
     }
 
     return sum;
-}
-
-fn main()
-{
-    let result: i32 = fiboEvenSum(4000000);
-    println!("result: {}", result);
 }

@@ -1,6 +1,10 @@
-#![allow(non_snake_case)]
+fn main()
+{
+    let result: i32 = multiples_of_3_and_5(1000);
+    println!("result: {}", result);
+}
 
-fn multiplesOf3and5(limit: i32) -> i32
+fn multiples_of_3_and_5(limit: i32) -> i32
 {
     let mut sum: i32 = 0;
     for i in 1..limit
@@ -12,10 +16,4 @@ fn multiplesOf3and5(limit: i32) -> i32
         }
     }
     return sum;
-}
-
-fn main()
-{
-    let result: i32 = multiplesOf3and5(1000);
-    println!("result: {}", result);
 }

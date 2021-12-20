@@ -1,6 +1,10 @@
-#![allow(non_snake_case)]
+fn main()
+{
+    let result: i64 = largest_prime_factor(600851475143);
+    println!("result: {}", result);
+}
 
-fn largestPrimeFactor(mut num: i64) -> i64
+fn largest_prime_factor(mut num: i64) -> i64
 {
     let original: i64 = num;
     let mut factor: i64 = 3;
@@ -25,10 +29,4 @@ fn largestPrimeFactor(mut num: i64) -> i64
     }
 
     return previous;
-}
-
-fn main()
-{
-    let result: i64 = largestPrimeFactor(600851475143);
-    println!("result: {}", result);
 }
