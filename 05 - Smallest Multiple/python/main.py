@@ -34,5 +34,5 @@ def generatePrimes(upTo):
             primes.append(i)
     return primes
 
-result = smallestMultiple(5)
+result = smallestMultiple(20)
 print("result: " + str(result))
