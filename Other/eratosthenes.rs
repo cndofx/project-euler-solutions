@@ -1,5 +1,5 @@
 fn main() {
-    sieve(10000);
+    sieve(999);
 }
 
 fn sieve(num: u64) {
@@ -7,7 +7,7 @@ fn sieve(num: u64) {
 
     let mut i: usize = 2;
     while i.pow(2) as u64 <= num {
-        if primes[i as usize] == true {
+        if primes[i] == true {
             println!("{} is prime", i);
             let mut j: usize = i.pow(2);
             while j as u64 <= num {
