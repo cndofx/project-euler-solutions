@@ -14,4 +14,4 @@ def sumSquareDifference(upTo):
     return squareOfSum(upTo) - sumOfSquares(upTo)
 
 result = sumSquareDifference(100)
-print(result)
+print("result: " + str(result))
