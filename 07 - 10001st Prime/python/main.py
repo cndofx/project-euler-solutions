@@ -25,4 +25,5 @@ def get_nth_prime(nth):
         limit = nth * size
     return primes[nth-1]
 
-print(get_nth_prime(10001))
+result = get_nth_prime(10001)
+print("result: " + str(result))
