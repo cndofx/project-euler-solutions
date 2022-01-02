@@ -1,4 +1,4 @@
-# Stats - Smallest Multiple
+# Stats - Largest Palindrome Product
 *D means 'debug mode' and R means 'release/optimization mode' when applicable*
 | Language | D Mean  | D Min   | D Max  | R Mean | R Min | R Max |
 | -------- | ------- | ------- | ------ | ------ | ----- | ----- |

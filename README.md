@@ -11,5 +11,4 @@ Each project folder has its own `readme.md` file with the execution time for eve
 - rust projects:
   - compiled with `rustc main.rs` for debug
   - compiled with `rustc -O main.rs` for release
-- python times will be the same on both as it does not have different modes
 - execution time is measured with [hyperfine](https://github.com/sharkdp/hyperfine)
