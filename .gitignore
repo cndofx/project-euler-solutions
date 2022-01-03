@@ -1,3 +1,8 @@
 bin/
 .vscode/
 *.out
+
+.idea/
+out/
+META-INF/
+*.iml
